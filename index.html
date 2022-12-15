@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer=""></script>
+    <title>Some Title</title>
+  </head>
+
+  <body ondragstart="return false;" ondrop="return false;">
+    <header>
+      <h1>Etch-a-Sketch</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="canvas"></div>
+        <div class="controls">
+          <div><input type="color" name="" id="" class="colorPicker" /></div>
+          <div class="flex-rows">
+            <input type="checkbox" name="" id="rainbowCheckbox" /><label
+              class="rainbowCheckboxText"
+              for=""
+              >rainbow</label
+            >
+          </div>
+          <div class="flex-rows">
+            <input type="range" name="" id="slider" min="1" max="20" />
+            <span class="sliderLabel">64 x 64</span>
+          </div>
+          <div><button class="resetButton">reset</button></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
